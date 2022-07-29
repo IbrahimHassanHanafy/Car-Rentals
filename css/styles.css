@@ -361,7 +361,7 @@ html {
 }
 #sec-7 .container ul option{
 	color: #fff;
-	font-size: 1.8rem;
+	font-size: 1.1rem;
 	margin-bottom: 1.2rem;
 }
 #sec-7 .container ul li a{
@@ -388,7 +388,7 @@ html {
 	margin-bottom: 1.2rem;
 } 
 #sec-7 .container article:last-of-type ul{
-	width: 35%;
+	width: 30%;
 }
 #sec-7 .container article:last-of-type ul:last-of-type{
 	flex-grow: 1;
@@ -399,7 +399,7 @@ html {
 	flex-direction: row;
 	justify-content: space-between;
 	height: 2.5rem;
-	margim:0 15px;
+	width:100%;
 	position: relative;
 	
 }
@@ -567,6 +567,8 @@ html {
 	#sec-6 .container article{
 		width: 48%;
 	}
+	#sec-7 .container article:last-of-type ul form{
+		width:80%;}
 
 	
 	
@@ -604,6 +606,9 @@ html {
 	}
 	#sec-7 .container article{
 		width: 49%;
+	}
+	#sec-7 .container ul option{
+		font-size:1.8rem;
 	}
 
 
